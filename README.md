@@ -1,0 +1,65 @@
+# thereisnosource.com
+
+## The Future of Software Distribution
+
+Welcome to the official GitHub repository for [thereisnosource.com](https://thereisnosource.com) - pioneering a revolutionary approach to software distribution through AI-powered code generation.
+
+## What is "Zero Source"?
+
+Zero Source is a paradigm shift in software distribution where:
+
+1. **Only READMEs are distributed** - No source code is included in releases
+2. **LLMs generate code on demand** - Software is reconstructed locally using AI
+3. **Instructions evolve with technology** - The same README produces better code as LLMs improve
+4. **Standardized format ensures consistency** - A structured approach to describing software functionality 
+
+## How It Works
+
+```mermaid
+graph LR
+    A[Developer creates README.md] --> B[README.md uploaded to thereisnosource.com]
+    B --> C[User downloads README.md]
+    C --> D[Local LLM interprets README.md]
+    D --> E[Original software generated on user device]
+    F[Newer, better LLMs released] --> G[Same README.md]
+    G --> H[Improved software generated]
+```
+
+1. Developers create detailed README.md files that describe their software's functionality, architecture, and logic
+2. Only the README.md is distributed through thereisnosource.com
+3. On the user's device, an LLM interprets the README.md to build original software that matches the specifications
+4. As better LLMs are released, the same README.md generates higher quality implementations without changes
+
+## Benefits
+
+- **Tiny Distribution Size** - READMEs are orders of magnitude smaller than compiled code
+- **Automatic Improvements** - Software naturally improves as LLM technology advances
+- **Enhanced Security** - No executable code distributed means fewer attack vectors
+- **Simplified Maintenance** - Focus on maintaining instructions, not implementation
+- **Platform Independence** - Same README works across all platforms and architectures
+
+## Repository Structure
+
+- **[examples/](examples/)** - Ready-to-use examples of Zero Source applications
+- **[docs/](docs/)** - Comprehensive documentation and specifications
+- **[tools/](tools/)** - Utilities to help with Zero Source development
+
+## Getting Started
+
+1. Check out the [Developer Guide](docs/developer-guide.md) to understand how to create Zero Source applications
+2. Explore the [examples](examples/) to see Zero Source in action
+3. Review the [specification](docs/specification.md) to learn about the standardized README format
+
+## Community
+
+- **[Join our Discord](https://discord.gg/thereisnosource)** - Connect with other Zero Source developers
+- **[Follow on Twitter](https://twitter.com/thereisnosource)** - Stay updated on the latest developments
+- **[Read our Blog](https://thereisnosource.com/blog)** - In-depth articles about Zero Source development
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Contributing
+
+Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
