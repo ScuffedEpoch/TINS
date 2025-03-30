@@ -33,22 +33,23 @@ Additional sections may be included for more detailed specifications.
 
 ## Installation
 
-```bash
-npm install -g @zerosource/bootstrapper
-```
+The bootstrapper tool is available in this repository and can be used directly with Node.js.
 
-Or use directly with npx:
+First, ensure the required dependencies are installed:
 
 ```bash
-npx @zerosource/bootstrapper <path-to-readme> [options]
+cd TINS/tools/llm-bootstrapper
+npm install
 ```
+
+This will install all necessary dependencies like commander, chalk, ora, marked, openai, and inquirer.
 
 ## Usage
 
 ### Basic Usage
 
 ```bash
-zerosource-bootstrapper path/to/README.md
+node TINS/tools/llm-bootstrapper/index.js path/to/README.md
 ```
 
 This will analyze the README and generate a complete implementation in a 'generated' subdirectory.
@@ -74,7 +75,7 @@ This will analyze the README and generate a complete implementation in a 'genera
 #### Generate a Project
 
 ```bash
-npx @zerosource/bootstrapper my-app/README.md --output my-app/implementation --lang JavaScript
+node TINS/tools/llm-bootstrapper/index.js my-app/README.md --output my-app/implementation --lang JavaScript
 ```
 
 This command will:
@@ -85,7 +86,7 @@ This command will:
 #### Validate a README Only
 
 ```bash
-npx @zerosource/bootstrapper my-app/README.md --validate
+node TINS/tools/llm-bootstrapper/index.js my-app/README.md --validate
 ```
 
 This will check if the README follows the Zero Source specification without generating any code.
@@ -93,7 +94,7 @@ This will check if the README follows the Zero Source specification without gene
 #### Interactive Mode
 
 ```bash
-npx @zerosource/bootstrapper my-app/README.md --interactive
+node TINS/tools/llm-bootstrapper/index.js my-app/README.md --interactive
 ```
 
 This launches an interactive prompt to guide you through the generation process with additional customization options.
@@ -126,7 +127,7 @@ A simple web-based todo application that allows users to add, edit, delete, and 
 2. **Generate the implementation**:
 
 ```bash
-npx @zerosource/bootstrapper todo-app/README.md --output todo-app/src
+node TINS/tools/llm-bootstrapper/index.js todo-app/README.md --output todo-app/src
 ```
 
 3. **Run the generated application**:
