@@ -51,13 +51,13 @@ graph LR
 3. Review the [specification](docs/specification.md) to learn about the standardized README format
 4. Check out the Example: [To-Do List](https://github.com/ScuffedEpoch/TINS/blob/main/simple-calculator/README.md)
 5. Check out the Example: [Calculator](https://github.com/ScuffedEpoch/TINS/blob/main/simple-calculator/README.md)
+6. Check out the Example: [api-wrapper](https://github.com/ScuffedEpoch/TINS/blob/main/api-wrapper/README.md)
 
 
 ## Community
 
-- **[Join our Discord](https://discord.gg/thereisnosource)** - Connect with other Zero Source developers
-- **[Follow on Twitter](https://twitter.com/thereisnosource)** - Stay updated on the latest developments
-- **[Read our Blog](https://thereisnosource.com/blog)** - In-depth articles about Zero Source development
+- **[Join our Discord](https://discord.com/invite/uubQXhwzkj)** - Connect with other Zero Source developers
+- **[Follow on Twitter](https://x.com/MushroomFleet)** - Stay updated on the latest developments
 
 ## License
 
@@ -65,4 +65,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contributing
 
-Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
+Contributions are welcome!
