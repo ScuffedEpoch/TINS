@@ -40,15 +40,18 @@ graph LR
 
 ## Repository Structure
 
-- **[examples/](examples/)** - Ready-to-use examples of Zero Source applications
+- **[examples/](examples/)** - Ready-to-use examples of Zero Source applications *coming soon*
 - **[docs/](docs/)** - Comprehensive documentation and specifications
 - **[tools/](tools/)** - Utilities to help with Zero Source development
 
 ## Getting Started
 
-1. Check out the [Developer Guide](docs/developer-guide.md) to understand how to create Zero Source applications
-2. Explore the [examples](examples/) to see Zero Source in action
+1. Read the [Best Practices](docs/specification.md) to learn tips on improving readme structure and detail.
+2. Check out the [Developer Guide](docs/developer-guide.md) to understand how to create Zero Source applications
 3. Review the [specification](docs/specification.md) to learn about the standardized README format
+4. Check out the Example: [To-Do List](https://github.com/ScuffedEpoch/TINS/blob/main/simple-calculator/README.md)
+5. Check out the Example: [Calculator](https://github.com/ScuffedEpoch/TINS/blob/main/simple-calculator/README.md)
+
 
 ## Community
 
