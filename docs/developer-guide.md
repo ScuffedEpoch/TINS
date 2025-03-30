@@ -57,19 +57,14 @@ Before publishing, validate your README:
 
 ```bash
 # Using the Zero Source CLI tool
-npx @zerosource/cli validate ./my-app/README.md
-
-# Using the web validator
-curl -X POST -H "Content-Type: text/markdown" \
-  --data-binary @./my-app/README.md \
-  https://thereisnosource.com/api/validate
+npx @zerosource/bootstrapper ./my-app/README.md --validate
 ```
 
 Additionally, test the generated implementation:
 
 ```bash
 # Generate an implementation locally
-npx @zerosource/cli generate ./my-app/README.md --output ./generated-app
+npx @zerosource/bootstrapper ./my-app/README.md --output ./generated-app
 
 # Run the generated application
 cd ./generated-app && npm start
@@ -79,12 +74,7 @@ cd ./generated-app && npm start
 
 Publish your Zero Source application to the thereisnosource.com repository:
 
-```bash
-# Using the Zero Source CLI
-npx @zerosource/cli publish ./my-app/README.md --name "My App" --category "Productivity"
-```
-
-Or manually:
+Manually:
 1. Fork the [thereisnosource.com repository](https://github.com/thereisnosource/zerosource-examples)
 2. Add your README to the appropriate category
 3. Submit a pull request
@@ -318,6 +308,7 @@ For collaborative editing:
 2. Review changes carefully for consistency
 3. Maintain a change log at the bottom of your README
 4. Consider using metadata comments to track authorship:
+
 
 ```markdown
 <!-- ZS:AUTHOR:JaneDoe:SECTION:UserInterface -->

@@ -48,9 +48,9 @@ graph LR
 1. Read the [Best Practices](docs/specification.md) to learn tips on improving readme structure and detail.
 2. Check out the [Developer Guide](docs/developer-guide.md) to understand how to create Zero Source applications
 3. Review the [specification](docs/specification.md) to learn about the standardized README format
-4. Check out the Example: [To-Do List](https://github.com/ScuffedEpoch/TINS/blob/main/simple-calculator/README.md)
-5. Check out the Example: [Calculator](https://github.com/ScuffedEpoch/TINS/blob/main/simple-calculator/README.md)
-6. Check out the Example: [api-wrapper](https://github.com/ScuffedEpoch/TINS/blob/main/api-wrapper/README.md)
+4. Check out the Example: [To-Do List](https://github.com/ScuffedEpoch/TINS/blob/main/examples/todo-app/README.md)
+5. Check out the Example: [Calculator](https://github.com/ScuffedEpoch/TINS/blob/main/examples/simple-calculator/README.md)
+6. Check out the Example: [api-wrapper](https://github.com/ScuffedEpoch/TINS/blob/main/examples/api-wrapper/README.md)
 
 
 ## Community
