@@ -40,7 +40,6 @@ graph LR
 
 ## Repository Structure
 
-- **[examples/](examples/)** - Ready-to-use examples of Zero Source applications *coming soon*
 - **[docs/](docs/)** - Comprehensive documentation and specifications
 - **[tools/](tools/)** - Utilities to help with Zero Source development
 
