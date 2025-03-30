@@ -55,6 +55,9 @@ graph LR
 5. Check out the Example: [Calculator](https://github.com/ScuffedEpoch/TINS/blob/main/examples/simple-calculator/README.md)
 6. Check out the Example: [api-wrapper](https://github.com/ScuffedEpoch/TINS/blob/main/examples/api-wrapper/README.md)
 
+   (DEMO ADDED: built using the TINS-MCP with VS Code + Cline & Claude 3.7 Sonnet)
+   [To Do List](https://thereisnosource.com/demo/todo/) created using the [To-Do List](https://github.com/ScuffedEpoch/TINS/blob/main/examples/todo-app/README.md) example.
+
 
 ## Community
 
