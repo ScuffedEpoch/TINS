@@ -4,6 +4,9 @@
 
 Welcome to the official GitHub repository for [thereisnosource.com](https://thereisnosource.com) - pioneering a revolutionary approach to software distribution through AI-powered code generation.
 
+**Bootstrapper Tool Deprecation** PLEASE USE THE [MCP SERVER](https://github.com/ScuffedEpoch/TINS-MCP)
+**NOTE** the Bootstrapper Tool in this Repo is included for developer reference, in the spirit of open source community research. this was the initial prototype for this framework.
+
 ## What is "Zero Source"?
 
 Zero Source is a paradigm shift in software distribution where:
