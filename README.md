@@ -4,17 +4,16 @@
 
 Welcome to the official GitHub repository for [thereisnosource.com](https://thereisnosource.com) - pioneering a revolutionary approach to software distribution through AI-powered code generation.
 
-**Bootstrapper Tool Deprecated** PLEASE USE THE [TINS-MCP](https://github.com/ScuffedEpoch/TINS-MCP) SERVER! <- April 2025
-**NOTE** the Bootstrapper Tool in this Repo is included for developer reference, in the spirit of open source community research. this was the initial prototype for this framework.
+**Important Note:** The Bootstrapper Tool previously in this repository is now deprecated. Please use the [TINS-MCP](https://github.com/ScuffedEpoch/TINS-MCP) server for the latest AI-powered code generation capabilities. The original prototype bootstrapper is available in the `tools/llm-bootstrapper` directory for historical reference.
 
-## What is "Zero Source"?
+## What is 'Zero Source'?
 
-Zero Source is a paradigm shift in software distribution where:
+'Zero Source' redefines software distribution:
 
-1. **Only READMEs are distributed** - No source code is included in releases
-2. **LLMs generate code on demand** - Software is reconstructed locally using AI
-3. **Instructions evolve with technology** - The same README produces better code as LLMs improve
-4. **Standardized format ensures consistency** - A structured approach to describing software functionality 
+1.  **READMEs as the Source:** Instead of code, we distribute detailed README files.
+2.  **AI-Powered Code Generation:** Large Language Models (LLMs) locally generate the software from these READMEs on the user's device.
+3.  **Evolving with AI:** As LLMs advance, the same README can produce progressively better and more optimized software.
+4.  **Standardized Descriptions:** A consistent format for READMEs ensures reliable software reconstruction.
 
 ## How It Works
 
@@ -28,18 +27,18 @@ graph LR
     G --> H[Improved software generated]
 ```
 
-1. Developers create detailed README.md files that describe their software's functionality, architecture, and logic
-2. Only the README.md is distributed through thereisnosource.com
-3. On the user's device, an LLM interprets the README.md to build original software that matches the specifications
-4. As better LLMs are released, the same README.md generates higher quality implementations without changes
+1. **Detailed READMEs:** Developers craft comprehensive READMEs detailing their software's functionality, architecture, and logic.
+2. **README Distribution:** Only these READMEs are shared via thereisnosource.com.
+3. **Local AI Interpretation:** On the user's device, an LLM interprets the README to generate the original software.
+4. **Automatic Upgrades:** As LLM technology improves, the same README can generate better, more optimized software versions without any changes to the README itself.
 
 ## Benefits
 
-- **Tiny Distribution Size** - READMEs are orders of magnitude smaller than compiled code
-- **Automatic Improvements** - Software naturally improves as LLM technology advances
-- **Enhanced Security** - No executable code distributed means fewer attack vectors
-- **Simplified Maintenance** - Focus on maintaining instructions, not implementation
-- **Platform Independence** - Same README works across all platforms and architectures
+- **Minimal Distribution:** READMEs are vastly smaller than compiled code.
+- **Self-Improving Software:** Code quality evolves with LLM advancements.
+- **Reduced Security Risks:** Distributing no executable code minimizes attack vectors.
+- **Simplified Upkeep:** Maintain instructions, not complex codebases.
+- **Cross-Platform:** READMEs are inherently platform-agnostic.
 
 ## Repository Structure
 
@@ -48,15 +47,21 @@ graph LR
 
 ## Getting Started
 
-1. Read the [Best Practices](docs/specification.md) to learn tips on improving readme structure and detail.
-2. Check out the [Developer Guide](docs/developer-guide.md) to understand how to create Zero Source applications
-3. Review the [specification](docs/specification.md) to learn about the standardized README format
-4. Check out the Example: [To-Do List](https://github.com/ScuffedEpoch/TINS/blob/main/examples/todo-app/README.md)
-5. Check out the Example: [Calculator](https://github.com/ScuffedEpoch/TINS/blob/main/examples/simple-calculator/README.md)
-6. Check out the Example: [api-wrapper](https://github.com/ScuffedEpoch/TINS/blob/main/examples/api-wrapper/README.md)
+To begin your Zero Source journey:
 
-   (DEMO ADDED: built using the TINS-MCP with VS Code + Cline & Claude 3.7 Sonnet)
-   [To Do List](https://thereisnosource.com/demo/todo/) created using the [To-Do List](https://github.com/ScuffedEpoch/TINS/blob/main/examples/todo-app/README.md) example.
+1.  **Developer Guide:** Start with the [Developer Guide](docs/developer-guide.md) to understand the fundamentals of creating Zero Source applications.
+2.  **Specification:** Next, review the [Specification](docs/specification.md) to learn about the standardized README format.
+3.  **Best Practices:** Then, read our [Best Practices](docs/best-practices.md) for tips on crafting effective READMEs that lead to high-quality generated code.
+
+### Examples
+
+Explore these examples to see Zero Source in action:
+
+*   **To-Do List App:** [View README](https://github.com/ScuffedEpoch/TINS/blob/main/examples/todo-app/README.md) | [Try the Demo](https://thereisnosource.com/demo/todo/) (Built with TINS-MCP, VS Code, and Claude 3.7 Sonnet)
+*   **Simple Calculator:** [View README](https://github.com/ScuffedEpoch/TINS/blob/main/examples/simple-calculator/README.md)
+*   **API Wrapper:** [View README](https://github.com/ScuffedEpoch/TINS/blob/main/examples/api-wrapper/README.md)
+
+The demo for the To-Do List app was generated using the TINS-MCP server, VS Code, and Claude 3.7 Sonnet, showcasing the power of this approach.
 
 
 ## Community
